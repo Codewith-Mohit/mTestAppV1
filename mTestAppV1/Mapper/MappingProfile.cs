@@ -8,7 +8,7 @@ namespace mTestAppV1.Mapper
     {
         public MappingProfile()
         {
-            CreateMap<Customer, CustomerDTO>().ReverseMap();
+            CreateMap<Customer, CustomerDto>().ReverseMap();
             CreateMap<Order, OrderDto>().ReverseMap();
         }
     }
